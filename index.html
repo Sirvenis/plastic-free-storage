@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plastic-Free Storage — Ditch Microplastics, Keep Your Food Safe</title>
+    <meta name="description" content="The best plastic-free food storage, water bottles, travel mugs, and lunch boxes. Protect your family from microplastics with safe, durable alternatives.">
+    <link rel="canonical" href="https://plasticfreestorage.github.io/">
+    <meta property="og:title" content="Plastic-Free Storage — Ditch Microplastics">
+    <meta property="og:description" content="Best plastic-free water bottles, travel mugs, lunch boxes, and food storage containers. Safe alternatives to plastic.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://plasticfreestorage.github.io/">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Plastic-Free Storage","url":"https://plasticfreestorage.github.io","description":"Best plastic-free food storage, water bottles, travel mugs, and lunch boxes. Protect your family from microplastics."}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why should I avoid plastic food storage?","acceptedAnswer":{"@type":"Answer","text":"Research shows microplastics shed from plastic containers into food and drinks, especially when heated. These tiny plastic particles have been found in human blood, lungs, and placenta. Switching to glass, stainless steel, or silicone eliminates this risk."}},{"@type":"Question","name":"What materials are safe alternatives to plastic?","acceptedAnswer":{"@type":"Answer","text":"The safest alternatives are: 1) Borosilicate glass (microwave and freezer safe), 2) 18/8 or 18/10 stainless steel (durable, no leaching), 3) Food-grade platinum silicone (flexible, heat resistant), 4) Ceramic (great for mugs and bowls)."}},{"@type":"Question","name":"Are stainless steel water bottles worth it?","acceptedAnswer":{"@type":"Answer","text":"Yes. Stainless steel bottles last 10+ years, don't leach chemicals, keep drinks cold for 24 hours or hot for 12 hours, and are fully recyclable. The upfront cost of $20-40 saves money long-term versus disposable bottles."}},{"@type":"Question","name":"Can I microwave glass food storage?","acceptedAnswer":{"@type":"Answer","text":"Yes, borosilicate glass (like Pyrex) is microwave-safe. Always remove metal or plastic lids before microwaving. Tempered glass can handle sudden temperature changes better than regular glass."}},{"@type":"Question","name":"What is the best plastic-free lunch box?","acceptedAnswer":{"@type":"Answer","text":"For adults, Black+Blum and PlanetBox offer excellent stainless steel bento boxes. For kids, PlanetBox Rover is the most popular. Thermos brand is reliable for hot food containers with stainless steel interiors."}}]}</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_ID_HERE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_ID_HERE');
+    </script>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{--primary:#0d1b0e;--secondary:#1a2e1c;--accent:#1b5e20;--highlight:#4caf50;--highlight2:#81c784;--text:#e8f5e9;--text-muted:#a5d6a7;--bg-card:#1e3a20;--bg-input:#0a1a0c;--success:#66bb6a;--warning:#ffb74d}
+        body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:linear-gradient(135deg,var(--primary),var(--secondary));color:var(--text);min-height:100vh;line-height:1.7}
+        .container{max-width:1000px;margin:0 auto;padding:20px}
+        header{text-align:center;padding:50px 20px 30px}
+        header h1{font-size:2.8em;background:linear-gradient(135deg,var(--highlight),var(--highlight2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:12px}
+        header p{color:var(--text-muted);font-size:1.15em;max-width:650px;margin:0 auto}
+        .nav-links{display:flex;justify-content:center;gap:15px;margin-top:25px;flex-wrap:wrap}
+        .nav-links a{color:var(--highlight);text-decoration:none;font-size:0.9em;padding:6px 16px;border:1px solid var(--highlight);border-radius:20px;transition:all .3s}
+        .nav-links a:hover{background:var(--highlight);color:#fff}
+        .hero-stat{display:flex;justify-content:center;gap:40px;margin:30px 0;flex-wrap:wrap}
+        .hero-stat div{text-align:center}
+        .hero-stat .num{font-size:2.2em;font-weight:700;color:var(--highlight)}
+        .hero-stat .label{font-size:0.8em;color:var(--text-muted)}
+
+        .section{background:var(--bg-card);border-radius:16px;padding:30px;margin:25px 0;box-shadow:0 4px 20px rgba(0,0,0,.3)}
+        .section h2{color:var(--highlight);margin-bottom:20px;font-size:1.5em}
+        .section h3{color:#fff;margin:18px 0 8px;font-size:1.1em}
+        .section p{color:var(--text-muted);margin-bottom:12px}
+        .section ul{color:var(--text-muted);margin-left:20px;margin-bottom:15px}
+        .section li{margin-bottom:8px}
+
+        .category-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+        .category-card{background:var(--bg-input);border:1px solid var(--accent);border-radius:14px;padding:25px;text-align:center;transition:all .3s;cursor:pointer;text-decoration:none;color:inherit;display:block}
+        .category-card:hover{border-color:var(--highlight);transform:translateY(-4px);box-shadow:0 8px 25px rgba(76,175,80,.15)}
+        .category-card .icon{font-size:2.5em;margin-bottom:12px}
+        .category-card h3{color:var(--highlight);margin-bottom:8px;font-size:1.1em}
+        .category-card p{color:var(--text-muted);font-size:0.9em}
+
+        .product-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+        .product{background:var(--bg-input);border:1px solid var(--accent);border-radius:12px;padding:20px;transition:all .3s}
+        .product:hover{border-color:var(--highlight)}
+        .product h4{color:var(--highlight);margin-bottom:6px}
+        .product .price{color:var(--highlight2);font-weight:600;font-size:0.95em;margin-bottom:6px}
+        .product .why{color:var(--text-muted);font-size:0.85em}
+
+        .cta-box{background:linear-gradient(135deg,var(--accent),#2e7d32);border-radius:14px;padding:25px;text-align:center;margin:25px 0}
+        .cta-box h3{color:#fff;margin-bottom:10px}
+        .cta-box p{color:#c8e6c9;font-size:0.95em}
+        .cta-box a{display:inline-block;margin-top:12px;padding:10px 25px;background:#fff;color:var(--accent);border-radius:8px;text-decoration:none;font-weight:600;transition:all .3s}
+        .cta-box a:hover{transform:translateY(-2px);box-shadow:0 4px 15px rgba(0,0,0,.3)}
+
+        .blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+        .blog-card{background:var(--bg-input);border:1px solid var(--accent);border-radius:12px;padding:20px;transition:all .3s;text-decoration:none;color:inherit;display:block}
+        .blog-card:hover{border-color:var(--highlight);transform:translateY(-3px)}
+        .blog-card h4{color:var(--highlight);margin-bottom:8px}
+        .blog-card p{color:var(--text-muted);font-size:0.88em}
+
+        .ad-slot{background:var(--bg-input);border:1px dashed var(--accent);border-radius:8px;padding:20px;text-align:center;color:var(--text-muted);font-size:0.8em;margin:25px 0;min-height:90px;display:flex;align-items:center;justify-content:center}
+
+        footer{background:var(--primary);padding:30px 20px;margin-top:40px;text-align:center;border-top:1px solid var(--accent)}
+        footer p{color:var(--text-muted);font-size:0.85em;margin-bottom:5px}
+        footer a{color:var(--highlight);text-decoration:none}
+
+        @media(max-width:600px){header h1{font-size:2em}.hero-stat{gap:20px}.hero-stat .num{font-size:1.6em}.category-grid{grid-template-columns:1fr 1fr}.product-list{grid-template-columns:1fr}}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plastic-Free Storage</h1>
+        <p>Ditch the microplastics. Keep your food, drinks, and family safe with durable glass, stainless steel, and silicone alternatives.</p>
+        <nav class="nav-links">
+            <a href="#why">Why It Matters</a>
+            <a href="#categories">Shop By Category</a>
+            <a href="#top-picks">Top Picks</a>
+            <a href="#blog">Guides</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="hero-stat">
+            <div><div class="num">5g</div><div class="label">Microplastic consumed weekly<br>per person (avg)</div></div>
+            <div><div class="num">10+</div><div class="label">Years a steel bottle lasts</div></div>
+            <div><div class="num">$0</div><div class="label">Cost of switching to<br>glass storage</div></div>
+        </div>
+
+        <div class="section" id="why">
+            <h2>Why Go Plastic-Free?</h2>
+            <p>Microplastics — tiny fragments shed from plastic containers, bottles, and packaging — have been found in human blood, lungs, placenta, and breast milk. Studies suggest the average person ingests about 5 grams of microplastic per week, roughly the weight of a credit card.</p>
+            <h3>The Science Is Clear</h3>
+            <ul>
+                <li><strong>Heat accelerates shedding</strong> — Microwaving plastic containers releases billions of nanoplastics into food</li>
+                <li><strong>Wear and tear matters</strong> — Scratched plastic containers leach more particles than new ones</li>
+                <li><strong>BPA-free isn't enough</strong> — BPA replacements (BPS, BPF) show similar health concerns in studies</li>
+                <li><strong>Long-term accumulation</strong> — Microplastics don't break down; they accumulate in your body over decades</li>
+            </ul>
+            <h3>The Good News</h3>
+            <p>Switching is easier and cheaper than ever. Glass, stainless steel, and silicone alternatives perform better, last longer, and cost about the same as quality plastic. Here's our curated guide to the best plastic-free products in every category.</p>
+        </div>
+
+        <div class="section" id="categories">
+            <h2>Shop By Category</h2>
+            <div class="category-grid">
+                <a class="category-card" href="#bottles">
+                    <div class="icon">🍶</div>
+                    <h3>Water Bottles</h3>
+                    <p>Stainless steel bottles that keep drinks cold 24hrs. No plastic, no microplastics.</p>
+                </a>
+                <a class="category-card" href="#mugs">
+                    <div class="icon">☕</div>
+                    <h3>Travel Mugs</h3>
+                    <p>Insulated mugs for hot coffee on the go. Zero plastic contact with your drink.</p>
+                </a>
+                <a class="category-card" href="#lunch">
+                    <div class="icon">🍱</div>
+                    <h3>Lunch Boxes</h3>
+                    <p>Stainless steel bento boxes and thermos containers for work and school.</p>
+                </a>
+                <a class="category-card" href="#storage">
+                    <div class="icon">🫙</div>
+                    <h3>Food Storage</h3>
+                    <p>Glass containers, silicone bags, and steel canisters for your kitchen.</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="ad-slot">Advertisement Space</div>
+
+        <div class="section" id="top-picks">
+            <h2>Top Picks for 2026</h2>
+
+            <h3 id="bottles">🍶 Best Plastic-Free Water Bottles</h3>
+            <div class="product-list">
+                <div class="product">
+                    <h4>Hydro Flask Wide Mouth 32oz</h4>
+                    <div class="price">$44.95</div>
+                    <div class="why">TempShield insulation keeps drinks cold 24hrs. The gold standard. Durable, dishwasher safe, huge color range.</div>
+                </div>
+                <div class="product">
+                    <h4>Owala FreeSip 24oz</h4>
+                    <div class="price">$27.99</div>
+                    <div class="why">Huge trend in 2026. Unique sip spout + straw combo. Leak-proof, affordable, fun colors. Great daily carry.</div>
+                </div>
+                <div class="product">
+                    <h4>Klean Kanteen Classic 27oz</h4>
+                    <div class="price">$30.95</div>
+                    <div class="why">OG eco brand. Simple, no-frills, lasts forever. Single-wall option available for lightweight use.</div>
+                </div>
+                <div class="product">
+                    <h4>CamelBak Chute Mag 32oz</h4>
+                    <div class="price">$35.00</div>
+                    <div class="why">Best all-rounder. Magnetic cap, easy carry handle. Great for gym, hiking, and daily use.</div>
+                </div>
+            </div>
+
+            <h3 id="mugs">☕ Best Plastic-Free Travel Mugs</h3>
+            <div class="product-list">
+                <div class="product">
+                    <h4>Zojirushi Stainless Steel Mug 16oz</h4>
+                    <div class="price">$28.99</div>
+                    <div class="why">Wirecutter #1 for 10 years. Best heat retention. Locking lid prevents spills. Exceptional build quality.</div>
+                </div>
+                <div class="product">
+                    <h4>MiiR 360 Traveler 16oz</h4>
+                    <div class="price">$32.95</div>
+                    <div class="why">Nearly as good as Zojirushi. 360-degree drinking lid. Durable, good-looking, gives to charity.</div>
+                </div>
+                <div class="product">
+                    <h4>Hydro Flask Coffee Mug 12oz</h4>
+                    <div class="price">$29.95</div>
+                    <div class="why">Flex Sip lid, TempShield insulation. Great for coffee lovers who want a proper cup feel.</div>
+                </div>
+                <div class="product">
+                    <h4>Pura Stainless Sport Bottle 22oz</h4>
+                    <div class="price">$29.99</div>
+                    <div class="why">100% plastic-free — even the lid is stainless steel. The only truly zero-plastic option.</div>
+                </div>
+            </div>
+
+            <h3 id="lunch">🍱 Best Plastic-Free Lunch Boxes</h3>
+            <div class="product-list">
+                <div class="product">
+                    <h4>Black+Blum Stainless Steel Lunch Box</h4>
+                    <div class="price">$39.99</div>
+                    <div class="why">Premium design, airtight seal, microwave-safe steel base. Looks great at the office.</div>
+                </div>
+                <div class="product">
+                    <h4>PlanetBox Rover</h4>
+                    <div class="price">$54.99</div>
+                    <div class="why">5-compartment stainless steel tray. Perfect for kids' lunches. Lasts through school years.</div>
+                </div>
+                <div class="product">
+                    <h4>Thermos Stainless King 16oz</h4>
+                    <div class="price">$24.99</div>
+                    <div class="why">Classic thermos. Keeps soup hot 7 hours. Built-in spoon. Trusted brand, affordable price.</div>
+                </div>
+                <div class="product">
+                    <h4>EcoLunchbox Three-in-One</h4>
+                    <div class="price">$32.00</div>
+                    <div class="why">Nesting steel containers with silicone lids. Leak-resistant, stackable, zero plastic.</div>
+                </div>
+            </div>
+
+            <h3 id="storage">🫙 Best Plastic-Free Food Storage</h3>
+            <div class="product-list">
+                <div class="product">
+                    <h4>Glasslock Smart Glass Set (10pc)</h4>
+                    <div class="price">$34.99</div>
+                    <div class="why">Consumer Reports top pick. Airtight, microwave + dishwasher safe. Best value for glass storage.</div>
+                </div>
+                <div class="product">
+                    <h4>Pyrex Simply Store Set (10pc)</h4>
+                    <div class="price">$29.99</div>
+                    <div class="why">Classic brand everyone trusts. Tempered glass, BPA-free lids. Great for meal prep and leftovers.</div>
+                </div>
+                <div class="product">
+                    <h4>Stasher Reusable Silicone Bags</h4>
+                    <div class="price">$12.99 ea</div>
+                    <div class="why">Ziploc replacement. Microwave, freezer, dishwasher safe. No plastic, no waste. Multiple sizes.</div>
+                </div>
+                <div class="product">
+                    <h4>Seed & Sprout Steel Container Set</h4>
+                    <div class="price">$48.00</div>
+                    <div class="why">Stainless steel with silicone lids. Airtight, leakproof. Australian brand, premium quality.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-box">
+            <h3>Ready to Go Plastic-Free?</h3>
+            <p>Start with one item — a stainless steel water bottle or a set of glass containers. Small changes add up to big health improvements.</p>
+            <a href="#categories">Shop Our Top Picks</a>
+        </div>
+
+        <div class="section" id="blog">
+            <h2>Guides & Articles</h2>
+            <div class="blog-grid">
+                <a class="blog-card" href="/blog/best-plastic-free-water-bottles.html">
+                    <h4>Best Plastic-Free Water Bottles 2026</h4>
+                    <p>Complete comparison of stainless steel bottles — insulation, durability, price, and value.</p>
+                </a>
+                <a class="blog-card" href="/blog/microplastics-in-your-water.html">
+                    <h4>Microplastics in Your Water: What Science Says</h4>
+                    <p>How microplastics get into your drinks and what the latest research reveals about health effects.</p>
+                </a>
+                <a class="blog-card" href="/blog/best-travel-mugs-without-plastic.html">
+                    <h4>Best Travel Mugs Without Plastic</h4>
+                    <p>Keep your coffee hot without microplastics. Our top picks for 100% plastic-free travel mugs.</p>
+                </a>
+                <a class="blog-card" href="/blog/plastic-free-lunch-box-guide.html">
+                    <h4>Plastic-Free Lunch Box Guide</h4>
+                    <p>Stainless steel bento boxes, thermos containers, and snack containers for adults and kids.</p>
+                </a>
+                <a class="blog-card" href="/blog/glass-vs-stainless-steel-food-storage.html">
+                    <h4>Glass vs Stainless Steel: Which Is Better?</h4>
+                    <p>We compare the two best plastic-free materials for food storage — pros, cons, and best uses.</p>
+                </a>
+                <a class="blog-card" href="/blog/make-your-kitchen-plastic-free.html">
+                    <h4>How to Make Your Kitchen 100% Plastic-Free</h4>
+                    <p>Step-by-step guide to replacing every plastic item in your kitchen. Start small, go fully plastic-free.</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="ad-slot">Advertisement Space</div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 PlasticFreeStorage — Your Guide to Plastic-Free Living</p>
+        <p><a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Service</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a></p>
+    </footer>
+</body>
+</html>
